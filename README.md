@@ -13,10 +13,9 @@ An agentic code inspection and automation pipeline built with **Python**, **Stre
 ## 🏗️ Project Structure
 
 ```text
-spark_agent/
+mr-spark-sentinel/
 ├── app.py               # Streamlit UI, custom CSS styling, and pipeline runner
 ├── sentinel_agent.py    # Multi-agent engine, Pydantic schemas, and OpenRouter client
 ├── requirements.txt     # Python dependencies
-├── .env                # Environment variables (local only, not committed)
-├── .gitignore          # Ignores virtual environment, cache, and secrets
+├── .env                 # Environment variables (local only, not committed)
 └── README.md            # Project documentation
